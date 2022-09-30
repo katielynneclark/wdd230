@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Assignment Portal"> 
+    <meta name="author" content="Katie Clark">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katie Clark</title> 
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+/* if you are using any Google fonts change the font names below to your fonts.
+Any spaces in your font name should be replaced with a +.
+Fonts are separated by a | */
+@import url('https://fonts.googleapis.com/css2?
+family=KoHo:wght@200;400&display=swap');
+:root {
+ /* change the values below to your colors from your palette */
+ --primary-color: #277BD3;
+ --secondary-color: #BFD7DB;
+ --accent1-color: #FFC620;
+ --accent2-color: white;
+ /* change the values below to your chosen font(s) */
+ --heading-font: koho, sans-serif;
+ --paragraph-font: koho, sans-serif;
+ /* these colors below should be chosen from among your palette colors above */
+ --headline-color-on-white: black; /* headlines on a white background */
+ --headline-color-on-color: white; /* headlines on a colored background */
+ --paragraph-color-on-white: black; /* paragraph text on a white background */
+ --paragraph-color-on-color: white; /* paragraph text on a colored background */
+ --paragraph-background-color: black;
+ --nav-link-color: #FFC620;
+ --nav-background-color: #277BD3;
+ --nav-hover-link-color: #4BAE16;
+ --nav-hover-background-color: #277BD3;
+}
+html {
+ box-sizing: border-box;
+ min-height: 100%;
+ background-color: white;
+}
+body {
+ max-width: 940px;
+ margin: 0 auto;
+ background-color: #277BD3;
+ padding: 1em;
+}
+img {
+ max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+ font-family: var(--heading-font);
+ color: var(--headline-color-on-white);
+}
+header {
+ padding: 1em;
+ text-align: center;
+ color: var(--paragraph-color-on-color);
+ background-color: var(--nav-hover-background-color);
+}
+header > h1, header > h2 {
+ color: var(black);
+}
+.colors {
+ width: 100%;
+ min-width: 350px;
+ margin: auto;
+ text-align: center;
+}
+.colors th {
+ background-color: #999;
+}
+.colors td{
+ width: 25%;
+ height: 3em;
+}
+.primary {
+ background-color: var(--primary-color);
+}
+.secondary {
+ background-color: var(--secondary-color);
+}
+.accent1 {
+ background-color: var(--accent1-color);
+}
+.accent2{
+ background-color: var(--accent2-color);
+}
+nav {
+ background-color: white;
+ line-height: 3em;
+ text-align: center;
+ font-size: 1.2em;
+}
+ul.headerrule {
+ background-color: #277BD3;
+}
+nav > ul {
+ list-style-type: none;
+ display: flex;
+}
+nav a {
+ padding:1em;
+ min-width: 70px;
+}
+nav a:link, nav a:visited {
+ color: var(--nav-link-color);
+}
+nav a:hover {
+ color: var(--nav-hover-link-color);
+ background-color: var(--nav-hover-background-color);
+}
+.lastupdated {
+ display: grid;
+ align-items: center;
+ justify-items: center;
+ background-color: var(#277BD3);
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1rem;
+    background-color: var(#277BD3);
+   }
+   
