@@ -1,0 +1,47 @@
+<style>
+  main {
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    text-align: center;
+  }
+
+  header {
+    background-color: lightskyblue;
+    color: black;
+    text-align: center;
+    padding: 3px;
+    border-radius: 15px;
+  }
+
+  footer {
+    background-color: lightskyblue;
+    font-size: 14pt;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    color: black;
+  }
+
+  main section {
+    border: 1px black;
+    padding: 3px;
+    margin: 10px;
+    background-color: gray;
+    border-radius: 15px;
+
+  }
+
+  main div img {
+    padding: 2px;
+    margin: 2px;
+    border-radius: 0px;
+  }
+
+  .sectionheader {
+    background-color: lightskyblue;
+    color: black;
+    text-align: center;
+    border-radius: 15px;
+
+  }
+</style>
