@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "Dream Avenue";
+  src: url('fonts/dreamAvenue.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Aileron Thin";
+  src: url('fonts/aileronThin.otf') format('opentype');
+}
+
+@font-face {
+  font-family: "Josefin Bold";
+  src: url('fonts/JosefinSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Montserrat Medium";
+  src: url('fonts/Montserrat-Medium.ttf') format('truetype');
+}
+
+body {
+  padding: 40px  40px;
+}
+h1, h3 {
+  font-family: "Dream Avenue";
+}
+
+h2, p {
+  font-family: "Aileron Thin";
+}
+
+nav {
+display: flex;
+flex-direction: column;
+  text-align: center;
+  background-color: #ECE6DB;
+}
+
+nav div {
+flex: 1 1 auto;
+}
+
+nav a {
+display: block;
+color: black;
+  font-family: "Aileron Thin";
+text-align: center;
+padding: 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+background-color: black;
+color: white;
+}
+
+header img {
+  width: 500px;
+}
+
+#logo {
+  width: 200px;
+}
+
+.color1, .color2, .color3, .color4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+  border-style: dotted;
+  border-color: black;
+  margin: 20px 10px;
+}
+
+.color1 {
+  background-color: #384f17;
+}
+
+.color2 {
+  background-color: #758a0b;
+}
+
+.color3 {
+  background-color: #bd7830;
+}
+
+.color4 {
+  background-color: #c9e265;
+}
+
+.header, .navigation, .footer, .headings, .paragraphs {
+  display: grid;
+  grid-template-columns: 5fr;
+  grid-template-rows: 5fr;
+  padding: 10px;
+  border-style: dotted;
+  border-color: black;
+  margin: 20px 10px;
+}
+
+.item1 {
+  background-color: #384f17;
+  color: white;
+  font-family: "Josefin Bold";
+  font-size: 40px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.item2 {
+  background-color: #bd7830;
+  color: white;
+  font-family: "Josefin Bold";
+  font-size: 30px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.item3 {
+  background-color: #384f17;
+  color: white;
+  font-family: "Montserrat Medium";
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.item4 {
+  color: #758a0b;
+  font-family: "Josefin Bold";
+  font-size: 30px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.item5 {
+  color: black;
+  font-family: "Montserrat Medium";
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0;
+}
