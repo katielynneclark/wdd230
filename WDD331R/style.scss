@@ -1,0 +1,38 @@
+$color_1: black;
+$color_2: #666;
+$color_3: #deb887;
+$color_4: #00ddff;
+$font-family_1: 'Lora';
+$font-family_2: Arial, Helvetica, sans-serif;
+
+@import "https://fonts.googleapis.com/css2?family=Lora&display=swap";
+a {
+	text-decoration: none;
+	color: $color_1;
+	font-family: $font-family_1;
+	&:visited {
+		color: $color_2;
+	}
+	&:active {
+		color: $color_3;
+	}
+	&:hover {
+		color: $color_4;
+	}
+}
+h1 {
+	font-family: $font-family_1;
+	font-size: 70px;
+}
+.post-date {
+	font-family: $font-family_1;
+	text-decoration: none;
+}
+body {
+	font-family: $font-family_2;
+	color: $color_1;
+}
+li {
+	list-style: none;
+	font-family: $font-family_2;
+}
