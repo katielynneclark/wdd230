@@ -1,7 +1,7 @@
 :root {
     --bg: #ffbb5c;
     --fg: #255f85;
-    --a-1: #98a17d;
+    --a-1: #255f85;
     --a-2: #694a38;
     --a-3: #d2d4c8;
 
@@ -9,8 +9,7 @@
     --font-size-1: 32px;
     --font-size-2: 48px;
 
-    --font-family-0: "Fira Sans", system-ui, sans-serif;
-    --font-family-1: "Inter Tight", system-ui, sans-serif;
+
 }
 
 html {
