@@ -3,7 +3,7 @@ const input = document.querySelector("#favchap");
 const list = document.querySelector(".list");
 
 button.addEventListener('click', function() { 
-    const favChap = input.ariaValueMax;
+    const favChap = input.value;
     input.value = "";
 
     const listItem = document.createElement('li');
