@@ -45,7 +45,7 @@
 
     section.join {
         grid-column: 1;
-        grid-row: 3;
+        grid-row: 2;
     }
 
     section.hero {
@@ -60,7 +60,7 @@
 
     section.spotlights {
         grid-column: 4;
-        grid-row: span 3;
+        grid-row: 1/3;
     }
 
     section.spotlights > div {
