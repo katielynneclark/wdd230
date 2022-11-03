@@ -1,0 +1,54 @@
+:root {
+    --back: rgb(239, 5, 5);
+    --back2: rgba(7, 24, 213, 0.519); 
+    --foredark: rgb(18, 17, 17); 
+    --forelight: hsla(0,0%,100%,1); 
+    --border: rgb(95, 92, 92); 
+    --borderlight: rgb(174, 66, 66); 
+    --shadow: rgb(52, 91, 200); 
+    --zebra: hsl(0, 0%, 93%, 1);
+}
+
+
+
+table{
+    margin: 10px auto;
+    border: thin solid var(--border);
+    box-shadow: 0 0 30px var(--shadow);
+    border-collapse: collapse;
+}
+
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: var(--back);
+    font-size: .85rem;
+}
+
+
+tr:first-child th, .highlight {
+    background-color: var(--back);
+    color: var(--forelight);
+}
+
+
+th, td {
+    padding: 7px 15px;
+    border: 1px solid var(--borderlight);
+}
+
+
+th {
+    background-color: var(--back2);
+}
+
+
+td {
+    text-align: center;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: var(--zebra);
+}
