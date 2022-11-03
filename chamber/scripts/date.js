@@ -83,3 +83,15 @@ if (!daysSinceVisit) {
 else {
     document.querySelector("#days_since").textContent = `${daysSinceVisit.toFixed(0)} days since last visit`;
 }
+
+<script type="text/javascript">
+    var d = new Date();
+
+ 
+    document.getElementById("date").value = d.toDateString();
+
+    var hours = d.getHours();
+    var mins = d.getMinutes();
+    var seconds = d.getSeconds();
+    document.getElementById("time").value = hours + ":" + mins + ":" + seconds;
+</script> 
