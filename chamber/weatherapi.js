@@ -2,15 +2,16 @@ const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
-const url = '{https://api.openweathermap.org/data/2.5/weather?q={Bakersfield}&appid={9933ebc6af71e2f2069cba2aaf90686d}}';
+const url = "https://api.openweathermap.org/data/2.5/weather?q=Bakersfield&appid=9933ebc6af71e2f2069cba2aaf90686d";
 
-async function apiFetch() {
+async function apiFetch(url) {
     try {
       const response = await fetch(url);
       if (response.ok) {
         const data = await response.json();
+        displayResults(data);
         console.log(data); // this is for testing the call
-        // displayResults(data);
+        
       } else {
           throw Error(await response.text());
       }
