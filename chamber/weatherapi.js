@@ -2,9 +2,9 @@ const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
-const url = "https://api.openweathermap.org/data/2.5/weather?q=Bakersfield&appid=9933ebc6af71e2f2069cba2aaf90686d";
+const url = "https://api.openweathermap.org/data/2.5/weather?q=Bakersfield&units=imperial&appid=9933ebc6af71e2f2069cba2aaf90686d";
 
-async function apiFetch(url) {
+async function apiFetch() {
     try {
       const response = await fetch(url);
       if (response.ok) {
