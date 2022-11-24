@@ -13,7 +13,7 @@
     }
 
     section.hero {
-        grid-row: 1;
+        grid-row: 2;
     }
 
     section.news {
@@ -48,15 +48,9 @@
         grid-column: 3;
     }
 
-    footer section:first-child {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+    
 
-    footer section:first-child div.part-1 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+   
 
     footer section.devinfo {
         flex-direction: row;
