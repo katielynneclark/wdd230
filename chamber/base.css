@@ -100,31 +100,7 @@ nav.closed li {
 
 
 
-nav .nav-btn {
-    border: none;
-    background-color: var(--a-3);
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    width: 100%;
-    min-height: 3rem;
-    min-width: 3rem;
-    font-size: inherit;
-    color: var(--a-1);
-}
 
-nav.closed .nav-btn::before {
-    content: "☰";
-}
-
-nav:not(.closed) .nav-btn::before {
-    content: "X";
-}
-
-nav:not(.closed) {
-    align-self: self-start;
-    z-index: 999;
-    border-radius: 0.5rem;
-}
 
 
 main {
@@ -255,7 +231,7 @@ section.spotlights > div > section hr {
     width: 100%;
     border-bottom: 1px solid var(--a-1);
 }
-/* Join is hidden on small screens */
+
 section.join {
     display: grid;
 }
