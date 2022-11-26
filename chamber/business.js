@@ -1,5 +1,5 @@
 const requestURL = 'scripts/data.json';
-const cards = document.querySelector('.cards'); 
+const cards = document.querySelector('cards'); 
 
 
 fetch(requestURL)
@@ -9,15 +9,13 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
 
-    const prophets = jsonObject['prophets'];
-    prophets.forEach(displayProphets);
+    const businesses = jsonObject['businesses'];
+    businesses.forEach(displayBusinesses);
 
    
   });
 
-  
-  
-    function displayProphets(prophet) {
+    function displayBusinesses(businesses) {
     // Create elements to add to the document
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
