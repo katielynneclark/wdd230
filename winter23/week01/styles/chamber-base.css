@@ -1,0 +1,47 @@
+body {
+    background: #acacaf;
+    color: #2684ba;
+    font-family: 'Lato', sans-serif;
+}
+h2, h3, h4, h5, h6 {
+    color: #054A8A;
+    font-family: 'Dosis', sans-serif;
+   font-size: 24px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 300px 300px 300px 300px;
+    justify-content: center; 
+}
+
+.purpose {
+    grid-row: 1/4;
+    grid-column: 1/2;
+}
+
+.scenarios {
+    grid-row: 2/4;
+    grid-column: 1/2;
+}
+
+.colors {
+grid-row: 1/4;
+grid-column: 2/2;
+}
+
+.type {
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.wireframe {
+    grid-row: 2/4;
+    grid-column: 3/2;
+}
+
+h1 {
+    grid-row: 2/4;
+    grid-column: 2/2;
+}
