@@ -11,6 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="week02/styles/menu.css">
+    <script src="week02/scripts/menu.js"defer></script>
+
     <title>WDD230-Portal-Katie Clark</title>
     <link rel="icon" href="sunfavicon.ico">
 </head>
@@ -22,10 +26,11 @@
     <meta property="og:url" content="https://katielynneclark.github.io/wdd230/winter23/">
     <h1>Katie Clark</h1>
     <img id="picture" src="images/_WC_6262 - Copy.jpg" alt="profile picture">
+    <h2>WDD230: Course Activity Portal</h2>
 </header>
 <main>
-    <h2>WDD230: Course Activity Portal</h2>
-    <section class="card">
+    
+    <section class="card1">
         <h3>Learning Activities</h3>
         <ul>
             <a href="week01/media-query.html">Week 1: Media Query</a> <a href="week01/holygrail.html">Holy Grail</a> <a href="week01/chamber-site-plan.html">Chamber Site Plan</a>
@@ -38,12 +43,12 @@
         </ul>
     </section>
 
-    <section class="card">
+    <section class="card2">
         <h3>Project</h3>
         <a href="chamber/">website</a>
     </section>
 
-    <section class="card">
+    <section class="card3">
         <h3>Information</h3>
         <p>67 degrees - sunny</p>
         <p>Visit Count: 9</p>
@@ -51,7 +56,13 @@
 </main>
 
 <footer>
-    <p>&copy; 2022</p>
+    <p>
+        &copy; 2022<span id="year"></span> 
+    </p>
+
+    <p class="highlight" id="lastModified">Last modified: <script>document.write(document.lastModified)</script></p>
 </footer>
+
+<script src="scripts/getDates.js"></script>
 </body>
 </html>
