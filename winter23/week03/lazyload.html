@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Lazy Loading">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Katie Clark">
+    <title>Lazy Loading</title>
+    <script src="scripts/lazyload.js"defer></script>
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <link rel="icon" href="sunfavicon.ico">
+</head>
+
+<body>
+    <header>
+        <h1>Lazy Loading</h1>
+    </header>
+
+<main>
+<picture>
+    <img src="images/byuisign.jpg" alt="BYUI Sign" loading="lazy" width="400" height="600">
+</picture>
+<picture>
+    <img src="images/collegesign.JPG" alt="BYUI Sign" loading="lazy" width="400" height="600">
+</picture>
+<picture>
+    <img src="images/owengrad.jpg" alt="BYUI Sign" loading="lazy" width="400" height="600">
+</picture>
+<picture>
+    <img src="images/owenparty.jpg" alt="BYUI Sign" loading="lazy" width="400" height="600">
+</picture>
+<picture>
+    <img src="images/IMG_3945.JPG" alt="BYUI Sign" loading="lazy" width="400" height="600">
+</picture>
+<picture>
+    <img src="images/IMG_4236.JPG" alt="BYUI Sign" loading="lazy" width="400" height="600">
+</picture>
+</main>
+
+<footer>
+    <p>
+        &copy; 2022<span id="year"></span> 
+    </p>
+
+    <p class="highlight" id="lastModified">Last modified: <script>document.write(document.lastModified)</script></p>
+</footer>
+<script src="scripts/getDates.js"></script>
+</body>
+</html>
