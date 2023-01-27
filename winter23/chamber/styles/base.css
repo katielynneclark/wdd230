@@ -207,7 +207,7 @@ color: #054A8A;
 }
 
 form label.top input, form label.top select {
-    -webkit-appearance: none;
+   
 display: block;
 font-size: 1rem;
 border: solid 1px #999;
@@ -219,9 +219,17 @@ max-width: 20rem;
 background-color: rgba(0, 0, 0, 0.1);
 }
 
+form input.submitBtn {
+    border: none;
+    background-color: #054A8A;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
 
-
-
+}
 
 form label.top input:required {
     border-left: rgb(205, 239, 11) solid 6px;
