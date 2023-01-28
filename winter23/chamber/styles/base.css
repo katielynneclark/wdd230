@@ -231,6 +231,10 @@ form input.submitBtn {
 
 }
 
+form input.submitBtn:hover{
+    opacity: 70%;
+}
+
 form label.top input:required {
     border-left: rgb(205, 239, 11) solid 6px;
 
