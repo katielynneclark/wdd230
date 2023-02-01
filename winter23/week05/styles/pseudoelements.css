@@ -60,7 +60,7 @@ ol {
 }
 
 ol::marker {
-color: navy;
-font-size: 2rem;
-font-variant: small-caps;
+	color: navy;
+	font-size: 2rem;
+	font-variant: small-caps;
 }
