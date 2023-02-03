@@ -1,0 +1,25 @@
+@media only screen and (min-width: 40rem) {
+nav {
+    flex-direction: row-reverse;
+
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 800px;
+    margin: auto;
+
+}
+
+main h1 {
+    grid-column: 1 / span 2;
+}
+
+main .learn {
+    background-color: pink;
+    grid-row: 2 / span 2;
+
+}
+}

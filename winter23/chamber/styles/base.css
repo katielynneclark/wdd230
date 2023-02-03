@@ -91,10 +91,8 @@ header button {
 }
 
 nav {
-    display: none;
-    position: absolute;
-    top: 60px;
-    right: 0px;
+    display: flex;
+flex-direction: column;
     
 }
 
