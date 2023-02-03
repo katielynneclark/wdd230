@@ -75,16 +75,6 @@ footer {
     padding-bottom: 15px;
 }
 
-.card1, .card2, .card3 {
-display: grid;
-border-radius: 10px;
-max-width: 300px;
-margin-left: 100px;
-margin-top: 25px;
-margin-bottom: 25px;
-font-family: 'Lato', sans-serif;
-font-size: 16px;
-}
 
 .learn {
     display: grid;
