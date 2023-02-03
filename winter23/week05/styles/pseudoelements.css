@@ -43,7 +43,7 @@ label {
 .firstline::first-line {
 	color: tomato;
 }
-.firstletter::first-letter {
+.firstletter::first-letter{
 	color: navy;
 	font-size: 2rem;
 }
@@ -54,13 +54,9 @@ label {
 	content: " 🌮";
 }
 
-ol {
+ol  {
 	list-style: numeric;
 	margin-left: 2rem;
+
 }
 
-ol::marker {
-	color: navy;
-	font-size: 2rem;
-	font-variant: small-caps;
-}

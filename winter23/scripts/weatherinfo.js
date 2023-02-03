@@ -22,3 +22,17 @@ myDescription.innerHTML = data.weather[0].description
 myTemperature.innerHTML = `${data.main.temp}&degF`
 
 }
+
+async function apiFetch() {
+    try {
+      const response = await fetch(url);
+      if (response.ok) {
+        const data = await response.json();
+        console.log(data); 
+          throw Error(await response.text());
+      }
+    } catch (error) {
+        console.log(error);
+    }
+  }
+  

@@ -1,0 +1,10 @@
+{
+    "links": [
+        {"week01": ["week01/holygrail.html", "week01/media-query.html", "week01/chamber-site-plan.html"]},
+        {"week02": ["https://codepen.io/katielynne/pen/qBymPYV", "week02/bom.html", "week02/design.html"]},
+        {"week03": ["https://katielynneclark.github.io/wdd230/winter23/week03/images/landscape.jpg.webp", "week03/lazyload.html", "https://codepen.io/katielynne/pen/jOpLgGw", "week03/webstorage.html"]},
+        {"week04": ["week04/images/combinators.png", "https://codepen.io/katielynne/pen/eYjVozm", "form-start/index.html", "week04/tablebuild.html"]},
+        {"week05": ["week05/prophets.html", "week05/weather.html", "week05/pseudoelements.html"]}
+    ]
+    }
+
