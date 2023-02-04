@@ -2,74 +2,74 @@
     "businesses": [
       {
         "name": "Buck Owens Crystal Palace",
-        "website":"https://www.buckowens.com/" ,
+        "websiteurl":"https://www.buckowens.com/" ,
         "address": "2800 Buck Owens Blvd., Bakersﬁeld, CA 93308",
-        "phone": "(661) 328-7560",
-        "level": "Gold Member",
+        "phonenumber": "(661) 328-7560",
+        "membershiplevel": "Gold Member",
     "imageurl": "images/buckowens.jpg"
       },
       {
         "name": "Padre Hotel",
-        "website": "https://www.thepadrehotel.com/?gclid=CjwKCAiApvebBhAvEiwAe7mHSLF-pTVjgWQWLhIq7KD9fZyuy48ZuE0bC2CX7SpxfRlX3410c4MasRoCKZwQAvD_BwE&gclsrc=aw.ds",
+        "websiteurl": "https://www.thepadrehotel.com/?gclid=CjwKCAiApvebBhAvEiwAe7mHSLF-pTVjgWQWLhIq7KD9fZyuy48ZuE0bC2CX7SpxfRlX3410c4MasRoCKZwQAvD_BwE&gclsrc=aw.ds",
         "address": "1702 18th Street, Bakersfield, CA 93301",
-        "phone": "(661) 427-4900",
-        "level": "Gold Member",
+        "phonenumber": "(661) 427-4900",
+        "membershiplevel": "Gold Member",
         "imageurl": "images/padre.jpg"
       },
       {
         "name": "McMurtery Aquatic Center",
-        "website": "https://www.visitbakersfield.com/directory/mcmurtrey-aquatic-center-aquatic-facilities/",
+        "websiteurl": "https://www.visitbakersfield.com/directory/mcmurtrey-aquatic-center-aquatic-facilities/",
         "address": "515 Truxtun Avenue, Bakersfield, CA 93301",
-        "phone": "(661) 852-7282",
-        "level": "Silver Member",
+        "phonenumber": "(661) 852-7282",
+        "membershiplevel": "Silver Member",
         "imageurl": "images/mcmurtery.JPG"
       },
       {
         "name": "Wells Fargo",
-        "website": "https://www.wellsfargo.com/locator/bank/13045__ROSEDALE__HWY_BAKERSFIELD_CA_93314/?utm_campaign=Local_Listings&utm_source=Google&group=Community_Bank&loc=WF00406",
+        "websiteurl": "https://www.wellsfargo.com/locator/bank/13045__ROSEDALE__HWY_BAKERSFIELD_CA_93314/?utm_campaign=Local_Listings&utm_source=Google&group=Community_Bank&loc=WF00406",
         "address": "13045 Rosedale Hwy, Bakersfield, CA, 93314",
-        "phone": "661-588-3479",
-        "level": "Silver Member",
+        "phonenumber": "661-588-3479",
+        "membershiplevel": "Silver Member",
         "imageurl": "images/wellsfargo.png"
       },
       {
         "name": "Costco",
-        "website": "https://www.costco.com/warehouse-locations/bakersfield-CA-688.html?utm_term=KW&utm_campaign=Homepage&utm_medium=GMB&utm_source=Google&utm_content=Link",
+        "websiteurl": "https://www.costco.com/warehouse-locations/bakersfield-CA-688.html?utm_term=KW&utm_campaign=Homepage&utm_medium=GMB&utm_source=Google&utm_content=Link",
         "address": "3800 Rosedale Hwy, Bakersfield, CA,93308",
-        "phone": "(661) 852-2643",
-        "level": "Bronze Member",
+        "phonenumber": "(661) 852-2643",
+        "membershiplevel": "Bronze Member",
         "imageurl": "images/costco.jpg"
       },
       {
         "name": "Sam's Club",
         "website": "https://www.samsclub.com/club/bakersfield-ca-sams-club/4819",
         "address": "5625 Gosford Rd, Bakersfield, CA 93313",
-        "phone": "(661) 654-8565",
+        "phonenumber": "(661) 654-8565",
         "level": "Bronze Member",
         "imageurl": "images/sams.jpg"
       },
       {
         "name": "Sancho's Tacos",
-        "website": "https://www.yelp.com/biz/sanchos-tacos-bakersfield",
+        "websiteurl": "https://www.yelp.com/biz/sanchos-tacos-bakersfield",
         "address": "700 18th St Bakersfield, CA 93301",
-        "phone": "(661) 348-4572",
-        "level": "Non Profit Member",
+        "phonenumber": "(661) 348-4572",
+        "membershiplevel": "Non Profit Member",
         "imageurl": "images/sanchos.jpg"
       },
       {
         "name": "In-N-Out Burger",
-        "website": "https://locations.in-n-out.com/362",
+        "websiteurl": "https://locations.in-n-out.com/362",
         "address": "7985 Rosedale Hwy, Bakersfield, CA 93308",
-        "phone": "1-800-786-1000",
-        "level": "Non Profit Member",
+        "phonenumber": "1-800-786-1000",
+        "membershiplevel": "Non Profit Member",
         "imageurl": "images/innout.jpg"
       },
       {
         "name": "Fox Theater",
-        "website": "http://thebakersfieldfox.com/",
+        "websiteurl": "http://thebakersfieldfox.com/",
         "address": "1700 20th Street, Bakersfield, CA 93301",
-        "phone": "(661) 324-1369",
-        "level": "Gold Member",
+        "phonenumber": "(661) 324-1369",
+        "membershiplevel": "Gold Member",
         "imageurl": "images/fox.jpg"
       }
       

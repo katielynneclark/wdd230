@@ -1,0 +1,66 @@
+{"companies": [
+    {
+       "name": "Padre Hotel",
+       "address": "1702 18th Street, Bakersfield, CA 93301",
+       "phone number": "(661) 427-4900",
+       "website": "https://www.thepadrehotel.com/?gclid=CjwKCAiApvebBhAvEiwAe7mHSLF-pTVjgWQWLhIq7KD9fZyuy48ZuE0bC2CX7SpxfRlX3410c4MasRoCKZwQAvD_BwE&gclsrc=aw.ds",
+       "imageurl": "images/padre.jpg",
+       "membership": "Gold"
+    },
+
+    {
+        "name": "Wells Fargo",
+        "address": "13045 Rosedale Hwy, Bakersfield, CA, 93314",
+        "phone number": "661-588-3479",
+        "website": "https://www.wellsfargo.com/locator/bank/13045__ROSEDALE__HWY_BAKERSFIELD_CA_93314/?utm_campaign=Local_Listings&utm_source=Google&group=Community_Bank&loc=WF00406",
+        "imageurl": "images/wellsfargo.jpg",
+        "membership": "Gold"
+     },
+     {
+     "name": "Costco",
+     "address": "3800 Rosedale Hwy, Bakersfield, CA,93308",
+     "phone number": "(661) 852-2643",
+     "website": "https://www.costco.com/warehouse-locations/bakersfield-CA-688.html?utm_term=KW&utm_campaign=Homepage&utm_medium=GMB&utm_source=Google&utm_content=Link",
+     "imageurl": "images/costco.jpg",
+     "membership": "Silver"
+  },
+
+  {
+    "name": "Schlumberger",
+    "address": "6120 Snow Rd, Bakersfield, CA,93308",
+    "phone number": "(661) 321-9440",
+    "website": "https://www.slb.com/",
+    "imageurl": "images/slb.png",
+    "membership": "Silver"
+ },
+
+ {
+    "name": "Sam's Club",
+    "address": "5625 Gosford Rd, Bakersfield, CA 93313",
+    "phone number": "(661) 654-8565",
+    "website": "https://www.samsclub.com/club/bakersfield-ca-sams-club/4819",
+    "imageurl": "images/sams.jpg",
+    "membership": "Bronze"
+ },
+
+ {
+    "name": "McMurtery Aquatic Center",
+    "address": "515 Truxtun Avenue, Bakersfield, CA 93301",
+    "phone number": "(661) 852-7282",
+    "website": "https://www.visitbakersfield.com/directory/mcmurtrey-aquatic-center-aquatic-facilities/",
+    "imageurl": "images/mcmurtery.JPG",
+    "membership": "Bronze"
+ },
+
+ {
+    "name": "In-N-Out Burger",
+    "address": "7985 Rosedale Hwy, Bakersfield, CA 93308",
+    "phone number": "1-800-786-1000",
+    "website": "https://locations.in-n-out.com/362",
+    "imageurl": "images/innout.jpg",
+    "membership": "Non Profit"
+ }
+]
+
+}
+
