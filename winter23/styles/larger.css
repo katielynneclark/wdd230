@@ -1,6 +1,8 @@
 @media only screen and (min-width: 40rem) {
 nav {
     flex-direction: row-reverse;
+    justify-content: right;
+    gap: 2rem;
 
 }
 
