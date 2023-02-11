@@ -19,7 +19,7 @@
     <link rel="icon" href="images/bakersfieldfavicon.ico">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <script src="scripts/random.js"></script>
+    
 </head>
 <body>
     <header>
@@ -63,7 +63,13 @@
              
             <section class="weather">
                 <h3>Weather</h3>
-                
+                <p>The current temperature in</p>
+                <p>Bakersfield, CA is <span id="current-temp"></span></p>
+                <figure>
+                    <img id="weather-icon" src="https://api.openweathermap.org/data/2.5/weather" alt="icon">
+                    <figcaption></figcaption>
+                </figure>
+                <div id="foreCast"></div>
             </section>
             
             <section class="events">
@@ -74,23 +80,15 @@
             </section>
             <section class="join">
                 <h4>Want to become a member of the chamber? Learn more about how it can benefit you!</h4>
-              
+                
               
             </section>
             
-                <section class="spotlight1">
-                    <h3>Buck Owens Crystal Palace</h3>
-                    <img id="buckowens" src="images/buckowens.jpg">
-                    <a href="https://www.buckowens.com/">website</a> 
+                <section id="spotLighted">
+                    <h3>Business Spotlight</h3>
+                    <ul>
+                    </ul>
                 </section>
-                <section class="spotlight2">
-                    <h3>Condors Hockey Team</h3>
-                    <img id="condors" src="images/condor.png">
-                    <a href="https://www.bakersfieldcondors.com/">website</a> 
-                </section>
-              
-            
-            </div>
                   
 
 
@@ -114,6 +112,8 @@
     
         <h5 class="highlight" id="lastModified">Last modified: <script>document.write(document.lastModified)</script></h5>
     </footer>
-    <script src="scripts/getDates.js"></script>
+    
+    <script src="scripts/forecast.js"></script>
+    <script src="scripts/spotlights.js"></script>
 </body>
 </html>

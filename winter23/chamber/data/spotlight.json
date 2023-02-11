@@ -1,0 +1,24 @@
+{"companies": [
+    {
+       "name": "Padre Hotel",
+       "address": "1702 18th Street, Bakersfield, CA 93301",
+       "phonenumber": "(661) 427-4900",
+       "website": "https://www.thepadrehotel.com/?gclid=CjwKCAiApvebBhAvEiwAe7mHSLF-pTVjgWQWLhIq7KD9fZyuy48ZuE0bC2CX7SpxfRlX3410c4MasRoCKZwQAvD_BwE&gclsrc=aw.ds",
+       "membershiplevel": "Gold",
+       "imageurl": "images/padre.jpg"
+       
+    },
+
+
+
+  {
+    "name": "Schlumberger",
+    "address": "6120 Snow Rd, Bakersfield, CA,93308",
+    "phonenumber": "(661) 321-9440",
+    "website": "https://www.slb.com/",
+    "membershiplevel": "Silver",
+    "imageurl": "images/slb.png"
+  
+ }
+]
+}
