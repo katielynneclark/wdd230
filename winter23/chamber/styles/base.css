@@ -2,7 +2,6 @@
 main {
     display: grid;
     background: #e2e2e3;
-    
     justify-content: center; 
 }
 
@@ -131,7 +130,7 @@ grid-column: 2/3;
 }
 
 .weather {
-grid-row: 6/4;
+grid-row: 4/4;
 grid-column: 2/3;
 }
 
@@ -250,16 +249,18 @@ form label.top input:required:valid {
 
 .grid div img {
     width: 100px;
-    height: 50px;
+    height: 65px;
 }
 
 .grid div {
     text-align: center;
-    border: 1px solid #054A8A;
+    border: 3px solid #054A8A;
     padding: 0.5rem;
     background-color: white;
     margin: 0 auto;
+    width: 600px;
 }
+
 
 .grid p {
     padding: 0%;
@@ -267,7 +268,7 @@ form label.top input:required:valid {
 }
 
 .grid li {
-    border: 1px solid #054A8A;
+    border: 2px solid #054A8A;
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
     padding: 0%;
 }
