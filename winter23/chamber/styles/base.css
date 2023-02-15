@@ -154,7 +154,7 @@ grid-column: 2/3;
 
 #spotLighted {
     grid-row: 2/4;
-    grid-column: 0/3;
+    
     list-style-type: none;
 }
 
@@ -170,7 +170,7 @@ footer {
 }
 
 .discover {
-    grid-column: 0/3;
+
     grid-row: 1/4;
     align-items: center;
     padding-top: 20px;
@@ -249,7 +249,7 @@ form label.top input:required:valid {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(1fr 200px, 1fr));
+    
     align-items: center;
     font-size: large;
 }
@@ -336,10 +336,4 @@ padding: 0%;
 	padding: 1rem;
 	font-weight: 700;
    
-}
-
-.memberList {
-    display: grid;
-    grid-row: 2/4;
-    grid-column: 1/3;
 }
