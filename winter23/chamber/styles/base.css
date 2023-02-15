@@ -258,7 +258,7 @@ form label.top input:required:valid {
     padding: 0.5rem;
     background-color: white;
     margin: 0 auto;
-    width: 600px;
+    width: 450px;
 }
 
 
@@ -280,16 +280,16 @@ padding: 0%;
 .list {
     display: flex;
     flex-direction: column;
-    background-color: white;
-    border-radius: 5px;
-    margin-bottom: 1rem;
-    padding: 1rem;
+    background-color: rgb(244, 249, 201);
+    width: 600px;
+
 }
 
 .list section {
     display: grid;
     grid-template-rows: 2fr 1fr 1fr;
     margin: 0;
+    padding: 0.25rem;
 }
 
 .list section > * {
@@ -328,4 +328,5 @@ padding: 0%;
 .menu button {
 	padding: 1rem;
 	font-weight: 700;
+   
 }
