@@ -3,7 +3,7 @@
        "name": "Padre Hotel",
        "address": "1702 18th Street, Bakersfield, CA, 93301",
        "phonenumber": "(661) 427-4900",
-       "website": "https://www.thepadrehotel.com/?gclid=CjwKCAiApvebBhAvEiwAe7mHSLF-pTVjgWQWLhIq7KD9fZyuy48ZuE0bC2CX7SpxfRlX3410c4MasRoCKZwQAvD_BwE&gclsrc=aw.ds",
+       "website": "https://www.thepadrehotel.com",
        "membershiplevel": "Gold",
        "imageurl": "images/padre.jpg"
        
@@ -13,7 +13,7 @@
         "name": "Wells Fargo",
         "address": "13045 Rosedale Hwy, Bakersfield, CA, 93314",
         "phonenumber": "661-588-3479",
-        "website": "https://www.wellsfargo.com/locator/bank/13045__ROSEDALE__HWY_BAKERSFIELD_CA_93314/?utm_campaign=Local_Listings&utm_source=Google&group=Community_Bank&loc=WF00406",
+        "website": "https://www.wellsfargo.com/locator/bank/13045",
         "membershiplevel": "Gold",
         "imageurl": "images/wellsfargo.png"
         
@@ -22,7 +22,7 @@
      "name": "Costco",
      "address": "3800 Rosedale Hwy, Bakersfield, CA,93308",
      "phonenumber": "(661) 852-2643",
-     "website": "https://www.costco.com/warehouse-locations/bakersfield-CA-688.html?utm_term=KW&utm_campaign=Homepage&utm_medium=GMB&utm_source=Google&utm_content=Link",
+     "website": "https://www.costco.com/warehouse-locations/bakersfield-CA",
      "membershiplevel": "Silver",
      "imageurl": "images/costco.jpg"
   },

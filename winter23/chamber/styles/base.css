@@ -276,18 +276,17 @@ form label.top input:required:valid {
 
 .grid li {
     border: 2px solid #054A8A;
-    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
-    padding: 0%;
+    color: #054A8A;
 }
 
 .grid ul {
-padding: 0%;
-}
+    padding: 0%;
+    }
 
 .list {
     display: flex;
     flex-direction: column;
-    background-color: rgb(244, 249, 201);
+    background-color: rgb(255, 255, 255);
     width: 600px;
 
 }
@@ -312,7 +311,7 @@ padding: 0%;
     font-family: 'Lato', sans-serif;
 }
 .list li:nth-child(even) {
-    background-color: white;
+    background-color: #3ad16c;
     padding: 1rem;
 }
 
@@ -330,10 +329,22 @@ padding: 0%;
 
 .list ul {
     padding: 0%;
+    color: #054A8A;
+    border: 2px solid #054A8A;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.menu button {
+.toggle button {
 	padding: 1rem;
-	font-weight: 700;
-   
+	font-size: 1rem;
+}
+
+#members {
+font-family: 'Dosis', sans-serif;
+}
+
+#header {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
 }

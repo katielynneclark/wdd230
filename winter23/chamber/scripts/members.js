@@ -14,6 +14,8 @@ fetch("data/members.json")
         address.textContent = `Address: ${company.address}`;
         li.appendChild(address);
 
+       
+
         let phoneNumber = document.createElement("p");
         phoneNumber.textContent = `Phone Number: ${company.phonenumber}`;
         li.appendChild(phoneNumber);
